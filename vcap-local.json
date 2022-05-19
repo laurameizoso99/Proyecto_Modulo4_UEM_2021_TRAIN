@@ -1,0 +1,48 @@
+{
+  "services": {
+    "cloudantNoSQLDB": [
+      {
+        "name": "my_doc_db_laura",
+        "label": "cloudantNoSQLDB",
+        "plan": "Shared",
+        "credentials": {
+          "apikey": "s42ygIIkldWug-K-68-X0oUV9vHEPJAf_3W6PI1JoJ5u",
+          "host": "d4057d2f-c763-430d-9c35-faded5ae195f-bluemix.cloudantnosqldb.appdomain.cloud",
+          "iam_apikey_description": "Auto-generated for key crn:v1:bluemix:public:cloudantnosqldb:eu-gb:a/fbb079a86e124da0b4b27d4a8a2df917:6fceca31-a29d-4a1a-91b7-44f78a1da8fe:resource-key:b7d927e2-7541-43d0-95dc-659bc299e36e",
+          "iam_apikey_name": "Credenciales de servicio-1",
+          "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+          "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/fbb079a86e124da0b4b27d4a8a2df917::serviceid:ServiceId-f4857cf3-fa62-45f9-9452-cf07d10f1b55",
+          "url": "https://d4057d2f-c763-430d-9c35-faded5ae195f-bluemix.cloudantnosqldb.appdomain.cloud",
+          "username": "d4057d2f-c763-430d-9c35-faded5ae195f-bluemix"
+        }
+      }
+    ],
+    "cloud-object-storage": [
+        {
+            "credentials": {
+              "apikey": "gmIjh_5mAjV8GKMLV2rB-ZAIBMBzNStBdBHPmeI7j-ao",
+              "endpoints": "https://s3.ap.cloud-object-storage.appdomain.cloud",
+              "iam_apikey_description": "Auto-generated for key crn:v1:bluemix:public:cloud-object-storage:global:a/fbb079a86e124da0b4b27d4a8a2df917:41df219f-d77a-41ed-aed7-7d5ce9ea9727:resource-key:98903f35-c19b-4176-902f-1c172be666fe",
+              "iam_apikey_name": "Credenciales de servicio-1",
+              "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+              "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/fbb079a86e124da0b4b27d4a8a2df917::serviceid:ServiceId-a6f337fb-677a-4977-b9b3-e4165c4cee9c",
+              "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/fbb079a86e124da0b4b27d4a8a2df917:41df219f-d77a-41ed-aed7-7d5ce9ea9727::"
+            },
+            "syslog_drain_url": null,
+            "volume_mounts": [],
+            "label": "cloud-object-storage",
+            "provider": null,
+            "plan": "Lite",
+            "name": "Cloud Object Storage-ih",
+            "tags": [
+                "Lite",
+                "storage",
+                "ibm_release",
+                "ibm_created",
+                "rc_compatible",
+                "ibmcloud-alias"
+            ]
+        }
+    ]
+  }
+}
